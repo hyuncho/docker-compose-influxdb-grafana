@@ -23,7 +23,7 @@ services:
       - INFLUXDB_USERNAME=${INFLUXDB_USERNAME}
       - INFLUXDB_PASSWORD=${INFLUXDB_PASSWORD}
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana:7.0.0-beta3
     ports:
       - '3000:3000'
     volumes:
